@@ -1,0 +1,14 @@
+.dialog-wrapper {
+  position: relative;
+  color: #404040;;
+
+  > mat-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .mat-form-field {
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.global-wrapper {
+  height: 100%;
+}
+
+.mat-card-content > div {
+  margin-bottom: 0.5rem;
+  line-height: 25px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background: #2871CC;
+    color: #ffff;
+  }
+}
+
+span {
+  margin: 0;
+  text-decoration: line-through;
+}
+
+mat-icon:hover {
+  cursor: pointer;
+}

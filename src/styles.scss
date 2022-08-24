@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-between {
+  @extend .d-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  @extend .d-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mat-dialog-container {
+  background-color: #ffff;
+  min-width: 500px;
+}
+
+.mat-card {
+  color: #404040;
+}
+
+.mat-button {
+  background-color: #2871CC;
+  color: #ffff;
+}
